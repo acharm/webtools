@@ -2,3 +2,7 @@ var: var
 type: 
     boolean, int, float, string, 
     (), [], {}. func, 
+cond:
+    if(var i = 5-4; j = 1; i == j) {}
+    if() {} else if() {} else {}
+    for() {}
