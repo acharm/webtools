@@ -1,2 +1,4 @@
-声明变量: var 
-类型: 四类八种? no~! boolean, int, float, string, (), [], {}. func,
+var: var 
+type: 
+    boolean, int, float, string, 
+    (), [], {}. func, 
