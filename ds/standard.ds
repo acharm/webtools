@@ -19,3 +19,5 @@ var (a, b, c) = fn() {
     var a : int = 5, b : "string", c = b.length;
     return (a, b, c);
 }();
+operator: +, -, *, /, %, **, &, |, ^, &&, ||, !,
+[test]
