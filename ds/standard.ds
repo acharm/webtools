@@ -1,6 +1,9 @@
 Object Oriented,
+3.times(fn() {
+    
+});
 identifier: bool, class, else, float, for, if, int, return, string, var, 
-(array, tuple, list, dict, obj)?
+(array, tuple, list, dict, obj, class)?
 var: var (case sensitive)
 type: 
     bool, int, float, string, 
@@ -11,3 +14,8 @@ cond:
     for() {}
     var a = if(b > c) {return "b > c";}else if(b < d) {return false;}else {return 5+7;} // a is string type or boolean
 pub. 
+var a = "string: " + 5 + ' + ' + "6 = " + 11; // a = "string: 5 + 6 = 11";
+var (a, b, c) = fn() {
+    var a : int = 5, b : "string", c = b.length;
+    return (a, b, c);
+}();
