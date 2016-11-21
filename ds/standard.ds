@@ -1,9 +1,13 @@
-大小写敏感. 
-var: var 
+Object Oriented,
+identifier: bool, class, else, float, for, if, int, return, string, var, 
+(array, tuple, list, dict, obj)?
+var: var (case sensitive)
 type: 
-    boolean, int, float, string, 
-    (), [], {}. func, 
+    bool, int, float, string, 
+    (), [], {}. fn, 
 cond:
     if(var i = 5-4; j = 1; i == j) {}
     if() {} else if() {} else {}
     for() {}
+    var a = if(b > c) {return "b > c";}else if(b < d) {return false;}else {return 5+7;} // a is string type or boolean
+pub. 
